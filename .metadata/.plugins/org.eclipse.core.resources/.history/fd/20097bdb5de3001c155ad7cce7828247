@@ -1,0 +1,10 @@
+<%@page import="Project.ConnectionProvider, java.sql.*" %>
+
+<%
+String bloodgroup = request.getParameter("bloodgroup");
+String incdec = request.getParameter("incdec");
+String units = request.getParameter("units");
+int units1=Integer.parseInt(units);
+
+
+%>

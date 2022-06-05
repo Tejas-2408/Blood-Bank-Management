@@ -1,0 +1,13 @@
+package Project;
+import java.sql.*;
+
+public class ConnectionProvider {
+	try {
+	public static Connection getCon() {
+		
+	}
+   }
+	catch(Exception e) {
+		return null;
+	}
+}

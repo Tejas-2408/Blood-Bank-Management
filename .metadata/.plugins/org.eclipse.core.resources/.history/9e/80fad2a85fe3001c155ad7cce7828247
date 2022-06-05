@@ -1,0 +1,6 @@
+<%@page import="Project.ConnectionProvider , java.sql.*" %>
+
+<%
+String mobilenumber= request.getParameter("mobilenumber");
+
+%>
